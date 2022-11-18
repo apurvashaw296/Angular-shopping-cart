@@ -1,0 +1,23 @@
+<body >
+
+  <form>
+    <div class="imgcontainer">
+      <img alt="img" src="https://cdn-icons-png.flaticon.com/512/5087/5087579.png" class="login_png"><br>
+    </div>
+    
+    <div class="container">
+      <label > <b>Username</b></label><br>
+      <input type="text" placeholder="Enter Username" name="email" [(ngModel)]="email"><br>
+      
+      <label ><b>Password</b></label><br>
+      <input type="password" placeholder="Enter Password" name="password" [(ngModel)]="password"><br>
+      
+      <button type="submit" (click)="loginUser()" >Login</button><br>
+      <label>
+        <input type="checkbox"> Remember me
+      </label>
+    </div>
+  </form>
+</body>
+
+<!--  -->
